@@ -126,7 +126,7 @@ h3{
 }
 
 #searchEngine{
-  width: 15%;
+  width: 100%;
   
 
 }
@@ -306,6 +306,8 @@ iframe {margin: 0 auto;display: block;}
   }
 
 .thumbnail .caption h2 {font-size: 1.1em;}
+
+#searchBox {width: 12%;float: right;}
 
 @media (max-width: 1023px) {
   .nav>li>a {
