@@ -210,8 +210,8 @@ p{
     width: 30%;
     height: 160px;
     text-align: center;
-    background-color: #383838;
-    color: #e4e5e4;
+    background-color: #fefefe;
+    color: #222;
     display: inline-block;
     vertical-align: top;
     margin: 50px 0;
@@ -270,8 +270,11 @@ iframe {margin: 0 auto;display: block;}
 .thumbnail .caption h2 {font-size: 1.1em;}
 
 #searchBox {width: 12%;float: right;}
-table td {border: 1px solid;}
-table th {border: 1px solid;border-right: 0;}
+
+main table td {border: 1px solid;}
+main table th {border: 1px solid;border-right: 0;}
+.mobile-logo {display: none;}
+
 
 @media (max-width: 1023px) {
   .nav>li>a {
@@ -332,4 +335,44 @@ table th {border: 1px solid;border-right: 0;}
   }
   .thumbnail {height: auto;}
   .plf .linkBubble {height: auto;}
+  .navbar {
+    position: absolute;
+    right: 0;
+    height: 80px;
+    width: 94px;
+  }
+  main {
+        margin-top: 88px;
+  }
+  .mobile-logo {
+    display: block;
+    position: absolute;
+    top: 22px;
+    left: 22px;
+  }
+  .mobile-logo img {
+    width: auto;
+    height: 30px;
+  }
+  .nav li:first-child {display: none;}
+  #searchBox {display: none;}
+  .nav li {width: 700px;}
+  .nav li a {font-size: 28px;line-height: 32px;}
+  footer a {font-size: 2em;}
+  .breadcrumb li a {font-size: 2em;}
+  .thumbnail {
+        max-width: 400px;
+    margin: 30px auto;
+    font-size: 2em;
+  }
+    .thumbnail h2, .thumbnail h3{
+    color: #333;
+    font-size: 1em;
+  }
+  #contactForm {width: 80%;}
+  label {font-size: 1.5em;} 
+}
+
+  @media only screen and (max-device-width: 467px) {
+
 }
