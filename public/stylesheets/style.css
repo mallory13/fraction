@@ -68,16 +68,16 @@ main{
 }
 
 .linkBubble {
-  margin: 50px;
-	border: 1px solid #724199;
-  padding: 5% 30%;
-	box-shadow: 0 0 8px #999;
-  font-size: 2em;
-  width: 95%;
-  height: 15%;
-  text-align: center;
-  background-color: #fff;
-  color: #222;
+margin: 20px auto;
+    border: 1px solid #724199;
+    /* padding: 5% 30%; */
+    box-shadow: 0 0 8px #999;
+    font-size: 2em;
+    width: 80%;
+    height: 15%;
+    text-align: center;
+    background-color: #fff;
+    color: #222;
 }
 
 .linkBubble:hover{
@@ -122,18 +122,9 @@ a:hover{
 a:active{
 
 }
-
-/*#shift(
-  padding-left: 15%;
-
-
-  )*/
-
   .thumbnail{
     background-color: #F6F7F6;
-    /*height: 20%;
-    width: auto;*/
-    height: 400px;
+/*    height: 400px;*/
     text-align: center;
   }
 
@@ -279,6 +270,8 @@ iframe {margin: 0 auto;display: block;}
 .thumbnail .caption h2 {font-size: 1.1em;}
 
 #searchBox {width: 12%;float: right;}
+table td {border: 1px solid;}
+table th {border: 1px solid;border-right: 0;}
 
 @media (max-width: 1023px) {
   .nav>li>a {
