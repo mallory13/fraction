@@ -5,14 +5,16 @@ footer {
     margin-bottom: 0%;
     margin-top: 2%;
     height: auto;
-    /*width: 80%;*/
-    padding: 2%;
+    padding: 1%;
     margin: 0 auto;
-    border-top: thick solid #FF6B00;
+    background-color: #333;
 
 }
 footer a {
-    color: #9d9d9d;
+    color: #fefefe;
+}
+footer a:hover {
+    color: #fff;
 }
 small {
     clear: both;
