@@ -7,7 +7,7 @@ footer {
     height: auto;
     padding: 1%;
     margin: 0 auto;
-    background-color: #333;
+    background-color: #828C00;
     text-align: center;
 
 }
@@ -29,8 +29,4 @@ small {
     color: oldlace;
     padding-left: 5%;
     font-size: 2em;
-    /*border-top:2px solid #FF6B00;*/
-
-
-
 }
