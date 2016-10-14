@@ -61,7 +61,7 @@ main {
 }
 .linkBubble {
     margin: 20px auto;
-    border: 1px solid #222;
+    border: 1px solid #777;
     box-shadow: 0 0 8px #999;
     font-size: 2em;
     width: 80%;
@@ -110,9 +110,16 @@ a:hover {
 a:active {} .thumbnail {
     background-color: #eee;
     text-align: center;
+    min-height: 270px;
+    border: 1px solid #777;
+}
+.small-thumb {
+    min-height: 120px;
 }
 .thumbnail img {
-    padding-top: 5%;
+    height: auto;
+    width: auto;
+    max-height: 200px;
 }
 .thumbnail h2,
 .thumbnail h3 {
@@ -160,7 +167,9 @@ p {
     color: #222;
 }
 /* CHANGES */
-
+main {
+  background: #E2EEFA;
+}
 .gsc-control-cse {
     border-color: #724199 !important;
     background: #724199 !important;
