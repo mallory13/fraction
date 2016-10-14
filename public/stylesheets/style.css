@@ -3,7 +3,7 @@
 
 html {
     min-height: 100%;
-    background-color: #333333;
+    background-color: #82BC00;
 }
 body {
     background-color: #E2EEFA;
@@ -42,33 +42,32 @@ main {
     color: #222;
     background-color: #fefefe;
 }
-/*.container{
-    width: 80%;
-    margin: 0 auto;
-}*/
 
 .pathway {
-    border: 1px solid #724199;
+    border: 1px solid #222;
+    border-radius: 0px;
     box-shadow: 0 0 8px #999;
-    background-color: #fff;
+    background-color: #eee;
     color: #222;
     width: 80%;
     height: 5%;
+    padding: 48px 20px;
+}
+.pathway img {
+  margin-top:80px;
 }
 .pathway:hover {
     border: 2px solid #724199;
 }
 .linkBubble {
     margin: 20px auto;
-    border: 1px solid #724199;
-    /* padding: 5% 30%; */
-    
+    border: 1px solid #222;
     box-shadow: 0 0 8px #999;
     font-size: 2em;
     width: 80%;
     height: 15%;
     text-align: center;
-    background-color: #fff;
+    background-color: #eee;
     color: #222;
 }
 .linkBubble:hover {
