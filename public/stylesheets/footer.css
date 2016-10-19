@@ -9,7 +9,7 @@ footer {
     margin: 0 auto;
     background-color: #82BC00;
     text-align: center;
-
+    position: relative;
 }
 footer a {
     color: #fefefe;

@@ -293,7 +293,54 @@ main table th {
 .mobile-logo {
     display: none;
 }
-
+.breadcrumb {
+    margin-bottom: 0;
+    position: relative;
+    z-index: 200;
+}
+.pdf-page {
+    background: #fff;
+    -webkit-box-shadow: 0px 6px 15px 0px rgba(50, 50, 50, 0.7);
+    -moz-box-shadow:    0px 6px 15px 0px rgba(50, 50, 50, 0.7);
+    box-shadow:         0px 6px 15px 0px rgba(50, 50, 50, 0.7);
+    max-width: 1080px;
+    padding: 30px 40px;
+    position: relative;
+}
+.gen-pdf {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.pdf-page h2 {
+    color: #00c1de;
+}
+.pdf-page h3 {
+    color: #222;
+}
+.page-note {
+    border: 1px solid #bfbfbf;
+    padding: 0 12px;
+}
+.page-note h3 {
+    text-align: center;
+}
+.space50 {
+    margin-bottom: 50px;
+}
+.space40 {
+    margin-bottom: 40px;
+}
+.center {
+    text-align: center;
+}
+.pdf-page ul {
+    list-style: none;
+}
+.pdf-bottom-info {
+    color: #a8a8a8;
+    margin-top: 40px;
+}
 /* MEDIA QUERIES STARTS HERE */
 
 @media (max-width: 1023px) {
