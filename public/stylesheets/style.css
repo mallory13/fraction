@@ -257,10 +257,6 @@ iframe {
     margin: 0 auto;
     display: block;
 }
-.gen-pdf {
-    text-align: center;
-    margin: 20px auto;
-}
 .gen-pdf a {
     padding: 5px 10px;
     background-color: #fff;
@@ -283,13 +279,13 @@ iframe {
     width: 12%;
     float: right;
 }
-main table td {
+/*main table td {
     border: 1px solid;
 }
 main table th {
     border: 1px solid;
     border-right: 0;
-}
+}*/
 .mobile-logo {
     display: none;
 }
@@ -317,6 +313,7 @@ main table th {
 }
 .pdf-page h3 {
     color: #222;
+    font-weight: bold;
 }
 .page-note {
     border: 1px solid #bfbfbf;
@@ -340,6 +337,23 @@ main table th {
 .pdf-bottom-info {
     color: #a8a8a8;
     margin-top: 40px;
+}
+.pdf-page table th {
+    text-align: center;
+    background: #00c1de;
+    color: #fff;
+    border-bottom: 2px solid #4f81bd;;
+}
+.pdf-page table {
+    border: 2px solid #4f81bd;;
+}
+table td {
+    vertical-align: top;
+    padding: 4px 8px;
+}
+.pdf-page .tbl-col3 tr td,.tbl-col3 tr th {
+    width: 33.3%;
+    padding: 8px;
 }
 /* MEDIA QUERIES STARTS HERE */
 
