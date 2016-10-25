@@ -389,6 +389,9 @@ table td {
     left: 35%;
     width: 65%;
 }
+.pdf-page blockquote {
+    font-size: 14px;
+}
 /* MEDIA QUERIES STARTS HERE */
 
 @media (max-width: 1023px) {
