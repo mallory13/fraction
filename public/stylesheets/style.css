@@ -355,6 +355,40 @@ table td {
     width: 33.3%;
     padding: 8px;
 }
+.equ-blue-arr-block {
+    color: #749dce;
+    position: relative;
+    height: 310px;
+}
+.equ-blue-arr-block img {
+    position: absolute;
+    top: 0px;
+    left: 30%;
+}
+.equ-blue-arr-block #equ-block1 {
+    position: absolute;
+    width: 30%;
+    left: 0;
+    top: 20px;
+}
+.equ-blue-arr-block #equ-block2 {
+    position: absolute;
+    top: 75px;
+    right: 0;
+    width: 38%;
+}
+.equ-blue-arr-block #equ-block3 {
+    position: absolute;
+    width: 30%;
+    left: 0;
+    top: 180px;
+}
+.equ-blue-arr-block #equ-block4 {
+    position: absolute;
+    top: 240px;
+    left: 35%;
+    width: 65%;
+}
 /* MEDIA QUERIES STARTS HERE */
 
 @media (max-width: 1023px) {
