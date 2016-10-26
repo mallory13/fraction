@@ -392,6 +392,26 @@ table td {
 .pdf-page blockquote {
     font-size: 14px;
 }
+.pdf-page .color-lil {
+    color: #9468ba;
+}
+.pdf-page .color-gr {
+    color: #7cc735;
+}
+.purple-box {
+    border: 1px solid #9468ba;
+    background-color: #eff6e1; 
+    padding: 20px 10px;
+}
+.ddager {
+    font-size: 20px;
+        -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+
+}
 /* MEDIA QUERIES STARTS HERE */
 
 @media (max-width: 1023px) {
