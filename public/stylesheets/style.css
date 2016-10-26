@@ -403,15 +403,6 @@ table td {
     background-color: #eff6e1; 
     padding: 20px 10px;
 }
-.ddager {
-    font-size: 20px;
-        -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-
-}
 /* MEDIA QUERIES STARTS HERE */
 
 @media (max-width: 1023px) {
