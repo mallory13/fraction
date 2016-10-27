@@ -355,6 +355,81 @@ table td {
     width: 33.3%;
     padding: 8px;
 }
+.equ-blue-arr-block {
+    color: #749dce;
+    position: relative;
+    height: 310px;
+}
+.equ-blue-arr-block img {
+    position: absolute;
+    top: 0px;
+    left: 30%;
+}
+.equ-blue-arr-block #equ-block1 {
+    position: absolute;
+    width: 30%;
+    left: 0;
+    top: 20px;
+}
+.equ-blue-arr-block #equ-block2 {
+    position: absolute;
+    top: 75px;
+    right: 0;
+    width: 38%;
+}
+.equ-blue-arr-block #equ-block3 {
+    position: absolute;
+    width: 30%;
+    left: 0;
+    top: 180px;
+}
+.equ-blue-arr-block #equ-block4 {
+    position: absolute;
+    top: 240px;
+    left: 35%;
+    width: 65%;
+}
+.pdf-page blockquote {
+    font-size: 14px;
+}
+.pdf-page .color-lil {
+    color: #9468ba;
+}
+.pdf-page .color-gr {
+    color: #7cc735;
+}
+.purple-box {
+    border: 2px solid #9468ba;
+    background-color: #eff6e1; 
+    padding: 20px 10px;
+}
+.purp-gr-tbl {
+    background: #eff6e1;
+}
+.pdf-page .purp-gr-tbl td,.pdf-page .purp-gr-tbl th {
+    border-bottom: none;
+    border: 3px solid #fff;
+    padding: 4px 0px;
+}
+.pdf-page .tbl-col2 td,.pdf-page .tbl-col2 th {
+    width: 50%;
+}
+.pdf-page .purp-gr-tbl th {
+    text-align: center;
+    padding: 10px 0;
+    background: #94689b;
+}
+.pdf-page .purp-gr-tbl h5 {
+    background: #dbc8db;
+    color: #000;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 0px;
+    border: 3px solid #fff;
+}
+.pdf-page .purp-gr-tbl p {
+    padding: 0px 4px;
+}
 /* MEDIA QUERIES STARTS HERE */
 
 @media (max-width: 1023px) {
