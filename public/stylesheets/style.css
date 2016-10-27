@@ -399,25 +399,27 @@ table td {
     color: #7cc735;
 }
 .purple-box {
-    border: 1px solid #9468ba;
+    border: 2px solid #9468ba;
     background-color: #eff6e1; 
     padding: 20px 10px;
 }
 .purp-gr-tbl {
     background: #eff6e1;
 }
-.pdf-page .tbl-col2 td,.pdf-page .tbl-col2 th {
-    width: 50%;
+.pdf-page .purp-gr-tbl td,.pdf-page .purp-gr-tbl th {
     border-bottom: none;
     border: 3px solid #fff;
-        padding: 4px 0px;
+    padding: 4px 0px;
 }
-.pdf-page .tbl-col2 th {
+.pdf-page .tbl-col2 td,.pdf-page .tbl-col2 th {
+    width: 50%;
+}
+.pdf-page .purp-gr-tbl th {
     text-align: center;
     padding: 10px 0;
     background: #94689b;
 }
-.pdf-page .tbl-col2 h5 {
+.pdf-page .purp-gr-tbl h5 {
     background: #dbc8db;
     color: #000;
     text-align: center;
@@ -425,7 +427,7 @@ table td {
     margin-top: 0px;
     border: 3px solid #fff;
 }
-.pdf-page .tbl-col2 p {
+.pdf-page .purp-gr-tbl p {
     padding: 0px 4px;
 }
 /* MEDIA QUERIES STARTS HERE */
