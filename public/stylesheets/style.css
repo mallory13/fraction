@@ -430,6 +430,18 @@ table td {
 .pdf-page .purp-gr-tbl p {
     padding: 0px 4px;
 }
+.pdf-page .col-bl {
+    color: #000;
+}
+.pdf-page .col-blue {
+    color: #365f91;
+}
+.pdf-page .align-left {
+    text-align: left;
+}
+.pdf-page figcaption {
+    color: #365f91;
+}
 /* MEDIA QUERIES STARTS HERE */
 
 @media (max-width: 1023px) {
