@@ -356,6 +356,18 @@ table td {
     vertical-align: top;
     padding: 4px 8px;
 }
+.pdf-page .tbl-black {
+    border: none;
+}
+.tbl-black tr td, .tbl-black tr th {
+    color: #000;
+    border: 1px solid #000;
+    background: #fff;
+    padding: 10px 10px;
+}
+.pdf-page .tbl-col4 tr td, .pdf-page .tbl-col4 tr th{
+    width: 25%;
+}
 .pdf-page .tbl-col3 tr td,
 .tbl-col3 tr th {
     width: 33.3%;
@@ -449,6 +461,9 @@ table td {
 }
 .pdf-page figcaption {
     color: #365f91;
+}
+.pdf-page figure ol,.pdf-page figure p {
+    text-align: left;
 }
 /* MEDIA QUERIES STARTS HERE */
 
