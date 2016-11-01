@@ -462,6 +462,9 @@ table td {
 .pdf-page figcaption {
     color: #365f91;
 }
+.pdf-page figure ol,.pdf-page figure p {
+    text-align: left;
+}
 /* MEDIA QUERIES STARTS HERE */
 
 @media (max-width: 1023px) {
