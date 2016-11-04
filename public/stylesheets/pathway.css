@@ -188,10 +188,7 @@ border: 4px solid #FF871F;
     width: 140px;
     font-size: 12px;
 }
-.diamond a:hover span {
-    color: #000;
-    text-decoration: underline;
-}
+
 .unitFractions,
 .comparingFractions,
 .operationsWithFractions {
@@ -222,6 +219,15 @@ border: 4px solid #FF871F;
 }
 .operationsWithFractions .diamond {
     border: 3px solid #ff5700;
+}
+.unitFractions .diamond:hover {
+    border: 6px solid #68c73d;
+}
+.comparingFractions .diamond:hover {
+    border: 6px solid #00c3e0;
+}
+.operationsWithFractions .diamond:hover {
+    border: 6px solid #ff5700;
 }
 .unitFractions h4 {
     background-color: #68c73d;

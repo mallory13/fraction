@@ -259,11 +259,18 @@ iframe {
     margin: 0 auto;
     display: block;
 }
+.gen-pdf {
+    width: 124px;
+    height: 34px;
+    background: url(/images/pdfBtnImg.png) no-repeat;
+    background-size: contain;
+}
 .gen-pdf a {
-    padding: 5px 10px;
-    background-color: #fff;
-    font-size: 18px;
-    border: 1px solid;
+    padding: 17px 62px;
+    font-size: 0;  
+}
+.gen-pdf a:hover {
+    border-bottom: 0;
 }
 .adobe-block {
     text-align: center;
