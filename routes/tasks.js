@@ -143,7 +143,7 @@ router.get('/paperFold', function(req, res, next) {
 });
 
 router.get('/pathwayTasks', function(req, res, next) {
-  res.render('pathwayTasks', {title:"Fraction Pathway Tasks"});
+  res.render('pathwayTasks', {title:"Fraction Pathways Tasks"});
 });
 
 
