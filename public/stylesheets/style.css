@@ -466,6 +466,9 @@ table td {
 .pdf-page .col-blue {
     color: #365f91;
 }
+.pdf-page .col-dark-blue {
+    color: #548ed4;
+}
 .pdf-page .align-left {
     text-align: left;
 }
