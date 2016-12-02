@@ -478,14 +478,28 @@ table td {
 .pdf-page figure ol,.pdf-page figure p {
     text-align: left;
 }
-.pdf-page .tbl-col-7 {
+.pdf-page .tbl-col-7 tr td,
+.pdf-page .tbl-col-8 tr td,
+.pdf-page .tbl-col-10 tr td {
     font-size: 12px;
 }
 .pdf-page .tbl-col-7 tr td {
     width: 14%;
 }
-.pdf-page .tbl-col-7 tr td ul {
+.pdf-page .tbl-col-7 tr td ul,
+.pdf-page .tbl-col-8 tr td ul,
+.pdf-page .tbl-col-10 tr td ul {
     padding-left: 5px;
+}
+.wide-page {
+    width: 1360px;
+    max-width: 1360px;
+}
+.pdf-page .tbl-col-8 tr td {
+    width: 12%;
+}
+.pdf-page .tbl-col-10 tr td {
+    width: 10%
 }
 /* MEDIA QUERIES STARTS HERE */
 
