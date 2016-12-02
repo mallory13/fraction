@@ -478,6 +478,15 @@ table td {
 .pdf-page figure ol,.pdf-page figure p {
     text-align: left;
 }
+.pdf-page .tbl-col-7 {
+    font-size: 12px;
+}
+.pdf-page .tbl-col-7 tr td {
+    width: 14%;
+}
+.pdf-page .tbl-col-7 tr td ul {
+    padding-left: 5px;
+}
 /* MEDIA QUERIES STARTS HERE */
 
 @media (max-width: 1023px) {
