@@ -505,6 +505,15 @@ table td {
 .pdf-page .tbl-col-10 tr td {
     width: 10%
 }
+.tbl-ul-pad tr td ul {
+    padding-left: 5px;
+}
+.tbl-small-font {
+    font-size: 12px;
+}
+.tbl-medium-font {
+    font-size: 14px;
+}
 /* MEDIA QUERIES STARTS HERE */
 
 @media (max-width: 1023px) {
