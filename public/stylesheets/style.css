@@ -466,6 +466,9 @@ table td {
 .pdf-page .col-blue {
     color: #365f91;
 }
+.pdf-page .col-dark-blue {
+    color: #548ed4;
+}
 .pdf-page .align-left {
     text-align: left;
 }
@@ -474,6 +477,42 @@ table td {
 }
 .pdf-page figure ol,.pdf-page figure p {
     text-align: left;
+}
+.pdf-page .tbl-col-7 tr td,
+.pdf-page .tbl-col-8 tr td,
+.pdf-page .tbl-col-10 tr td {
+    font-size: 12px;
+}
+.pdf-page .tbl-col-7 tr td {
+    width: 14%;
+}
+.pdf-page .tbl-col-7 tr td ul,
+.pdf-page .tbl-col-8 tr td ul,
+.pdf-page .tbl-col-10 tr td ul {
+    padding-left: 5px;
+}
+.wide-page {
+    width: 1360px;
+    max-width: 1360px;
+}
+.ultra-wide-page {
+    width: 1660px;
+    max-width: 1660px;
+}
+.pdf-page .tbl-col-8 tr td {
+    width: 12%;
+}
+.pdf-page .tbl-col-10 tr td {
+    width: 10%
+}
+.tbl-ul-pad tr td ul {
+    padding-left: 5px;
+}
+.tbl-small-font {
+    font-size: 12px;
+}
+.tbl-medium-font {
+    font-size: 14px;
 }
 /* MEDIA QUERIES STARTS HERE */
 
