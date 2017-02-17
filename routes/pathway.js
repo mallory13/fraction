@@ -12,6 +12,10 @@ router.get('/comp', function(req, res, next) {
   res.render('comp', {myName: "Comparing Fractions", title:"Comparing Fractions"});
 });
 
+router.get('/comparingFractions', function(req, res, next) {
+  res.render('comparingFractions', {myName: "Comparing Fractions", title:"Comparing Fractions"});
+});
+
 router.get('/compA', function(req, res, next) {
   res.render('compA', {myName: "Comp A", title:"Comp A"});
 });
@@ -39,6 +43,10 @@ router.get('/op', function(req, res, next) {
   res.render('op', {myName: "Operations", title:"Operations"});
 });
 
+router.get('/operations', function(req, res, next) {
+  res.render('operations', {myName: "Operations", title:"Operations"});
+});
+
 router.get('/opA', function(req, res, next) {
   res.render('opA', {myName: "Op A", title:"Op A"});
 });
@@ -64,8 +72,11 @@ router.get('/unit', function(req, res, next) {
   res.render('unit', {myName: "Unit Fractions", title:"Unit Fractions"});
 });
 
+router.get('/unitFractions', function(req, res, next) {
+  res.render('unitFractions', {myName: "Unit Fractions", title:"Unit Fractions"});
+});
+
 router.get('/unitA', function(req, res, next) {
-  console.log('123');
   res.render('unitA', {myName: "Unit A", title:"Unit A"});
 });
 

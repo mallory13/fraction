@@ -128,7 +128,7 @@ a:active {} .thumbnail {
 .thumbnail h2,
 .thumbnail h3 {
     color: #724199;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 .thumbnail:hover {
     background-color: #ABC2C4;
@@ -331,6 +331,7 @@ main table th {
 .page-note {
     border: 1px solid #bfbfbf;
     padding: 0 12px;
+    margin-bottom: 15px;
 }
 .page-note h3 {
     text-align: center;
@@ -513,6 +514,15 @@ table td {
 }
 .tbl-medium-font {
     font-size: 14px;
+}
+.green-unit-grid .thumbnail {
+    min-height: 320px;
+}
+.sub-bullet {
+    padding-left: 20px;
+}
+.color-purple {
+    color: #724199;
 }
 /* MEDIA QUERIES STARTS HERE */
 
