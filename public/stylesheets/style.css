@@ -421,6 +421,9 @@ table td {
 .pdf-page blockquote {
     font-size: 14px;
 }
+.uppercase {
+    text-transform: uppercase;
+}
 .pdf-page .color-lil {
     color: #9468ba;
 }
