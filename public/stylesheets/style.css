@@ -433,10 +433,54 @@ table td {
 .purple-box {
     border: 2px solid #9468ba;
     background-color: #eff6e1;
-    padding: 20px 10px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.dotted-box {
+    background: #f4ecf3;
+    border: 3px dotted #7cc731;
+    padding: 10px 20px;
+    margin-bottom: 20px; 
+}
+.two-col-list li {
+    width: 49%;
+    display: inline-block;
+}
+.relative {
+    position: relative;
+}
+.farr img {
+    position: absolute;
+    left: -15px;
+    top: 30px;
+}
+.farr .num {
+    position: absolute;
+    left: 80px;
+    top: 40px;
+}
+.farr .den {
+    position: absolute;
+    left: 80px;
+    top: 80px;
+}
+.tbl-fixed {
+    max-width: 800px;
+    margin: 0 auto;
 }
 .purp-gr-tbl {
     background: #eff6e1;
+}
+.purple-border {
+    border: 2px solid #a3629e;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.pdf-page .tbl-gr-line {
+    border:none;
+}
+.tbl-gr-line tr td:first-child {
+    border-right: 2px solid #7cc731;
 }
 .pdf-page .purp-gr-tbl td,
 .pdf-page .purp-gr-tbl th {
