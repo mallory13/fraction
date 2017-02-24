@@ -344,6 +344,7 @@ main table th {
 }
 .center {
     text-align: center;
+    margin-bottom: 10px;
 }
 .pdf-page ul {
     list-style: none;
@@ -378,6 +379,81 @@ table td {
 }
 .pdf-page .tbl-col4 tr td, .pdf-page .tbl-col4 tr th{
     width: 25%;
+}
+.pdf-page ul li {
+    margin-bottom: 10px;
+}
+.pdf-page sub, .pdf-page sup {
+    font-size: 80%;
+}
+.hoisted-arr-img {
+    float: right;
+    padding: 0 120px 0 20px;
+}
+.area-mod-img {
+    float: right;
+    padding: 0 20px;
+}
+.dist-hoist {
+ position: absolute;
+ top: 140px;
+ right: 20px;
+}
+.dist-hoisted {
+ position: absolute;
+ top: 340px;
+ right: 20px;
+}
+.pdf-page table {
+    margin-bottom: 20px;
+}
+.key-title {
+    height: 90px;
+    margin-bottom: 10px;
+}
+.key-title h4 {
+    
+    display: inline-block;
+    margin-top: 27px;
+    padding: 11px 20px;
+    font-size: 20px;
+    color: #fff;
+}
+.key-title .key-bl {
+    background: #0078a4;
+}
+.key-title .key-pink {
+    background: #f31ba5;
+    margin-top: 30px;
+    padding-bottom: 12px;
+}
+.key-title .key-red {
+    background: #b1455f;
+    margin-top: 28px;
+    padding-bottom: 13px;
+}
+
+.semi-bold {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+}
+.key-title .key-green {
+    background: #00a369;
+        padding-bottom: 12px;
+        margin-top: 29px;
+}
+.key-title .key-orange {
+        background: #fb8722;
+    margin-top: 33px;
+}
+.key-title .key-light {
+    background: #5e99af;
+    margin-top: 26px;
+    padding-bottom: 12px;
+}
+.key-title img {
+    float: left;
 }
 .pdf-page .tbl-col3 tr td,
 .tbl-col3 tr th {
@@ -430,6 +506,21 @@ table td {
 .pdf-page .color-gr {
     color: #7cc735;
 }
+.pdf-page ul li .color-gr {
+    margin-right: 5px;
+}
+.resources h4 {
+    font-size: 20px;
+    color: #9468ba;
+}
+.resources h5 {
+    color: #9468ba;
+    font-style: italic;
+}
+.bg-lil {
+    background: #ece0eb;
+    padding: 10px 20px;
+}
 .purple-box {
     border: 2px solid #9468ba;
     background-color: #eff6e1;
@@ -470,6 +561,17 @@ table td {
 }
 .purp-gr-tbl {
     background: #eff6e1;
+
+}
+.purp-gr-tbl tr td {
+    padding: 10px;
+}
+.tbl-lil {
+    background: #f6f9eb;
+    border: none;
+}
+.tbl-lil tr td {
+    border: 2px solid #a3629e;
 }
 .purple-border {
     border: 2px solid #a3629e;
@@ -479,14 +581,14 @@ table td {
 .pdf-page .tbl-gr-line {
     border:none;
 }
-.tbl-gr-line tr td:first-child {
+.tbl-gr-line tr td:not(:last-child) {
     border-right: 2px solid #7cc731;
 }
 .pdf-page .purp-gr-tbl td,
 .pdf-page .purp-gr-tbl th {
     border-bottom: none;
     border: 3px solid #fff;
-    padding: 4px 0px;
+    padding: 4px 5px;
 }
 .pdf-page .tbl-col2 td,
 .pdf-page .tbl-col2 th {
