@@ -48,7 +48,7 @@ main {
     box-shadow: 0 0 8px #999;
     background-color: #eee;
     color: #222;
-    width: 80%;
+    width: 92%;
     height: 5%;
     padding: 48px 20px;
     margin: 0 auto;
@@ -673,6 +673,28 @@ table td {
 .color-purple {
     color: #724199;
 }
+.dot-lists ul li {
+     list-style: disc;
+}
+.dot-lists h1 {
+    color: #000;
+}
+.panel-body img {
+    max-width: 100%;
+}
+.panel-body {
+    background: #e7e7e7;
+}
+.panel-body p {
+    margin: 10px 0 20px 0;
+}
+.panel-body a {
+    color: #724199;
+}
+.panel-body table {
+    background: #fff;
+}
+
 /* MEDIA QUERIES STARTS HERE */
 
 @media (max-width: 1023px) {
